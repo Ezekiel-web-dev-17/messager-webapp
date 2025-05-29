@@ -19,7 +19,7 @@ app.use("/api/v1/users", userRouter);
 app.use("/api/v1/messages", messageRouter);
 
 app.use(errorMiddleware);
-app.use(arcjetMiddlewar);
+app.use(arcjetMiddleware);
 
 app.listen(PORT, async () => {
   console.log(`Server is running on localhost: http://localhost:${PORT}`);
